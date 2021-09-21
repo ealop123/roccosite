@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rocco's Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" charset="utf-8"></script>
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+
+  </head>
+  <body draggable="false">
+    <img draggable="false" id="logo" src="./imgs/roccos_logo.png" alt="">
+
+    <div id="displayWindow">
+      <div class="pageContent active" id="homePage">
+        <img id="displayWindowTopImg" draggable="false" src="./imgs/homeofthegiant.png" width="100%" alt="">
+        <div id="photoCarousel">
+          <div class="displayImgs"></div>
+          <div class="displayImgs"></div>
+          <div class="displayImgs"></div>
+          <div class="flexBreak"><span id="back">⏮</span><span id="pause">⏸</span><span id="next">⏭</span></div>
+          <div class="displayImgs"></div>
+          <div class="displayImgs"></div>
+          <div class="displayImgs"></div>
+        </div>
+        <a draggable="false" href="tel:7605977036">
+          <img draggable="false" id="callImg" src="./imgs/wedeliver.png" width="100%" alt="">
+        </a>
+      </div>
+
+      <div class="pageContent" id="menuPage">
+        <span style="font-size: 4em; font-weight: bold; text-align: center; color: white;">MENU PAGE 🍕🍕</span>
+        <!-- temp placeholder text -->
+      </div>
+
+      <div class="pageContent" id="hoursPage">
+        <span style="font-size: 4em; font-weight: bold; text-align: center; color: white;">HOURS PAGE ⌚⌚</span>
+        <!-- temp placeholder text -->
+      </div>
+    </div>
+
+    <nav>
+      <button class="active" type="button" id="home">Home</button><!--
+   --><button class="" type="button" id="menu">Menu</button><!--
+   --><button class="" type="button" id="hours">Hours</button>
+    </nav>
+  </body>
+</html>
